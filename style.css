@@ -1,0 +1,89 @@
+#pageName {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 8px;
+}
+#child1 {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  text-align: center;
+  font-size: 90px;
+}
+#child2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 171, 14);
+  text-align: center;
+  font-size: 40px;
+  font-size: 90px;
+}
+#child3 {
+  width: 100px;
+  height: 100px;
+  background-color: mediumorchid;
+  text-align: center;
+  font-size: 40px;
+  font-size: 90px;
+}
+#child4 {
+  width: 100px;
+  height: 100px;
+  background-color: cadetblue;
+  text-align: center;
+  font-size: 40px;
+  font-size: 90px;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+}
+section {
+  height: 500px;
+  width: 500px;
+  background: rgb(74, 204, 238);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Acme", sans-serif;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+svg {
+  cursor: pointer;
+}
+h1 {
+  font-size: 40px;
+}
+button {
+  background-color: #ff1b1b;
+
+  margin: auto;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  font-family: "Acme", sans-serif;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.1);
+  background-color: tomato;
+}
+#container {
+  background-color: lightgray;
+  width: 600px;
+  margin: auto;
+  height: 620px;
+  box-shadow: 5px 10px #888888;
+  border-radius: 2%;
+}
+button a {
+  text-decoration: none;
+}
+#hiddenButton {
+  color: white;
+}

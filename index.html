@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Around The World</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div id="pageName">
+        <div id="child5">
+          <a href="#"><img src="logo.png" id="logo"/></a>
+        </div>
+        <div id="child1">H</div>
+        <div id="child2">I</div>
+        <div id="child3">K</div>
+        <div id="child4">E</div>
+      </div>
+      <section id="backGround">
+        <h1 id="toggleText">
+          Click on the Sun if you want to travel the world
+        </h1>
+        <svg
+          id="darkMode"
+          onclick="showButton()"
+          width="159"
+          height="157"
+          viewBox="0 0 159 157"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="sun"
+            d="M159 78.5C159 121.854 123.407 157 79.5 157C35.5934 157 0 121.854 0 78.5C0 35.1456 35.5934 0 79.5 0C123.407 0 159 35.1456 159 78.5Z"
+            fill="#FFC700"
+          />
+        </svg>
+
+        <button style="visibility:hidden" id="hiddenButton">
+          Lets Get Started
+          <a href="home.htm"></a>
+        </button>
+      </section>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
